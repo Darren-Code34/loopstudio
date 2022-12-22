@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header id="header">
+      <div id="nav-bar">
+        <img src="./images/logo.svg" alt="the logo" class="logo logo-top">
+        <nav id="nav">
+          <img id="hamburger-menu" src="./images/icon-hamburger.svg" alt="hamburger icon">
+          <img src="./images/icon-close.svg" alt="close icon" id="close-menu">
+          <ul id="menu">
+            <li>About</li>
+            <li>Careers</li>
+            <li>Events</li>
+            <li>Products</li>
+            <li>Support</li>
+          </ul>
+        </nav>
+      </div>
+      
+      <h1 id="headline">
+        Immersive experiences that deliver
+      </h1>
+    </header>
+    <main class="main">
+      <div class="about">
+        <img src="./images/mobile/image-interactive.jpg" alt="image vr" class="interactive mobile">
+        <img src="./images/desktop/image-interactive.jpg" alt="image vr" class="interactive desktop">
+        <div class="descriptif-text">
+          <h2 class="vr">
+            The leader in interactive VR
+          </h2>
+          <p class="description">
+            Founded in 2011, Loopstudios has been producing world-class virtual reality 
+            projects for some of the best companies around the globe. Our award-winning 
+            creations have transformed businesses through digital experiences that bind 
+            to their brand.
+          </p>
+        </div>
+      </div>
+      <div class="creations">
+        <h2 id="creation-title">
+          <span>Our creations</span>
+          <span><button class="see-all-top">see all</button></span>
+        </h2>
+        <div class="gallerie">
+          <div class="creation c1">
+            <img src="./images/mobile/image-deep-earth.jpg" alt="the earth" class="earth mobile">
+            <img src="./images/desktop/image-deep-earth.jpg" alt="the earth" class="earth desktop">
+            <h3 class="deep-earth">Deep earth</h3>
+          </div>
+          <div class="creation c2">
+            <img src="./images/mobile/image-night-arcade.jpg" alt="arcade" class="arcade mobile">
+            <img src="./images/desktop/image-night-arcade.jpg" alt="arcade" class="arcade desktop">
+            <h3 class="arcade">Night arcade</h3>
+          </div>
+          <div class="creation c3">
+            <img src="./images/mobile/image-soccer-team.jpg" alt="soccer team" class="soccer mobile">
+            <img src="./images/desktop/image-soccer-team.jpg" alt="soccer team" class="soccer desktop">
+            <h3 class="soccer">Soccer team VR</h3>
+          </div>
+          <div class="creation c4">
+            <img src="./images/mobile/image-grid.jpg" alt="the grid" class="grid mobile">
+            <img src="./images/desktop/image-grid.jpg" alt="the grid" class="grid desktop">
+            <h3 class="grid">The grid</h3>
+          </div>
+          <div class="creation c5">
+            <img src="./images/mobile/image-from-above.jpg" alt="above vr" class="above mobile">
+            <img src="./images/desktop/image-from-above.jpg" alt="above vr" class="above desktop">
+            <h3 class="above-vr">From up above VR</h3>
+          </div>
+          <div class="creation c6">
+            <img src="./images/mobile/image-pocket-borealis.jpg" alt="borealis" class="borealis mobile">
+            <img src="./images/desktop/image-pocket-borealis.jpg" alt="borealis" class="borealis desktop">
+            <h3 class="borealis">Pocket borealis</h3>
+          </div>
+          <div class="creation c7">
+            <img src="./images/mobile/image-curiosity.jpg" alt="curiosity" class="curiosity mobile">
+            <img src="./images/desktop/image-curiosity.jpg" alt="curiosity" class="curiosity desktop">
+            <h3 class="curiosity">The curiosity</h3>
+          </div>
+          <div class="creation">
+            <img src="./images/mobile/image-fisheye.jpg" alt="view fisheye" class="fisheye mobile">
+            <img src="./images/desktop/image-fisheye.jpg" alt="view fisheye" class="fisheye desktop">
+            <h3 class="fisheye">Make it fisheye</h3>
+          </div>
+          
+        </div>
+        <button class="see-all-bottom">see all</button>
+      </div>
+    </main>
+    <div class="bottom">
+      <div class="info">
+        <img src="./images/logo.svg" alt="the logo" class=" logo logo-bottom">
+        <ul class="info-liste">
+          <li>About</li>
+          <li>Careers</li>
+          <li>Events</li>
+          <li>Products</li>
+          <li>Support</li>
+        </ul>
+      </div>
+      <div class="social">
+        <img src="./images/icon-facebook.svg" alt="facebook icon" class=" social-icon facebook">
+        <img src="./images/icon-twitter.svg" alt="twitter icon" class="social-icon twitter">
+        <img src="./images/icon-pinterest.svg" alt="pinterest icon" class="social-icon pinterest">
+        <img src="./images/icon-instagram.svg" alt="instagram icon" class="social-icon instagram">
+        <p class="rights" >© 2021 Loopstudios. All rights reserved.</p>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Darren MIBISSA</a>.
+  </div>
+</body>
+</html>

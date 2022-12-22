@@ -355,6 +355,10 @@ h2{
         padding-left: 0;
     }
 
+    .gallerie{
+        column-gap: 20px;
+    }
+
     .creation h3{
         font-size: 22px;
         top: -78px;
@@ -397,6 +401,10 @@ h2{
 
     .description{
         font-size: 16px;
+    }
+
+    .gallerie{
+        column-gap: 30px;
     }
 
     .creation h3{
@@ -443,6 +451,10 @@ h2{
 
     .description{
         font-size: 16.5px;
+    }
+
+    .gallerie{
+        column-gap: 35px;
     }
 
     .creation h3{
